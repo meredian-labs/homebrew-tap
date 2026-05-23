@@ -1,10 +1,12 @@
 # typed: false
 # frozen_string_literal: true
 
+# This file is maintained by scripts/update-tap.sh — do not edit manually.
 class Lore < Formula
   desc "Local-first engineering memory system"
   homepage "https://github.com/meredian-labs/lore"
   version "0.1.0"
+  license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
